@@ -1,0 +1,304 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3a8a5;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar h3{
+    order: -1;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    list-style:none;
+}
+
+
+.mainh{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#homeimg{
+    max-width: 70vw;
+}
+
+.imagetexth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1bdbb;
+}
+
+.box1, .box2, .box3{
+    background-color: #fcf8ef;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+
+.box1 h2, .box2 h2, .box3 h2{
+    text-decoration: underline;
+
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #d3a8a5;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer p, .footer a{
+    font-size: smaller;
+}
+
+.footer a{
+    text-decoration: underline;
+}
+
+
+
+.contactform form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    font-family: Nunito;
+}
+
+.contactform h2{
+    font-family: Delius;
+}
+
+.execs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.profilepic{
+    max-width: 50vw;
+    height: auto;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.becky, .eleanor, .jeslyn, .sarah, .Anderson, .julie, .amanda, .nataly{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left:15px;
+    background-color:#f4e5e1;
+    margin-right:15px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    font-family: Nunito;
+}
+
+.maint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.maing{
+    margin: 15px;
+}
+
+.row img{
+    border-radius: 25px;
+}
+
+.navbar li a{
+    text-decoration: underline;
+    font-family: Nunito;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navbar li a:hover{
+    background-color: #9b7e7b;
+
+}
+
+.navbar h3{
+    font-family: Delius;
+}
+
+#navbuttonb{
+    background-color:#f4e5e1;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+    border: 1px solid black;
+    font-family: Nunito;
+}
+
+#navbuttonb:hover{
+    background-color: #f8beae;
+}
+
+
+.footer p, .footer a{
+    font-family: Nunito;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nunito-nuns {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.mainh h2{
+    text-align: center;
+    font-family: Delius;
+}
+
+.maininfo p{
+    font-family: Nunito;
+}
+
+.maint h2{
+    font-family: Delius;
+}
+
+
+#contactb{
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px black solid;
+    transition: background-color 0.3s ease;
+}
+
+#contactb:hover{
+    background-color: #9b6060;
+}
+
+.gwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gwrap img{
+    border-radius: 15px;
+}
+
+.gwrap h2{
+    font-family: Delius;
+}
+
+@media screen and (min-width: 850px){
+    .navbar{
+        display: flex;
+        background-color: #f1bdbb;
+        box-shadow: none;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    
+    .navbar h3{
+        order: 0;
+    }
+
+    .imagetexth{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .imagetexth h2{
+        align-self: flex-start;
+        font-size: 400%;
+    }
+
+    #homeimg{
+        max-width: 50vw;
+    }
+
+    .homeboxes{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+
+    }
+
+    .becky, .eleanor, .jeslyn, .sarah, .Anderson, .julie, .amanda, .nataly{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .profilepic{
+        max-width: 30vw;
+    }
+
+    .execs{
+        gap: 35px;
+    }
+
+    .maint{
+        margin-top: 40px;
+    }
+
+    .maing{
+        max-width: 60vw;
+    }
+
+    .gwrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer a {
+        align-self: center;
+    }
+}
